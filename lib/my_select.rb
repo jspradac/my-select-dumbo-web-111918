@@ -3,4 +3,9 @@ def my_select(collection)
  selection = []
  while i < collection.length do 
    if yield array[i]
+     selection.push(array[i])
+   end 
+   i += 1 
+ end 
+ selection
 end
